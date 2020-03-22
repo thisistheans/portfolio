@@ -27,7 +27,7 @@ h1 {
 
 header {
 	width: 100%;
-	background: #fcfcfc;
+	background: #FFFFFF;
 	padding: 20px 0px;
 	z-index: 1000;
 }
@@ -41,8 +41,24 @@ header {
 	float: left;
 }
 #title a {
-	font:35px/35px 'Nova Cut', Helvetica, Arial, "sans-serif";
+	font:40px/40px 'Nova Cut', Helvetica, Arial, "sans-serif";
 	color: #000;
 	text-decoration: none;
 	letter-spacing: -1px;
+}
+#menu {
+	width: 60%;
+	height: 100%;
+	float: right;
+	text-align: right;
+}
+#menu a {
+	color: #3C3838;
+	letter-spacing:1px;
+	font:20px/35px 'karla', sans-serif;
+	text-decoration: none;
+	margin:0px 15px;
+}
+#menu a:hover {
+	color: #ed533a;
 }
