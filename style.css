@@ -55,7 +55,8 @@ header {
 #menu a {
 	color: #3C3838;
 	letter-spacing:1px;
-	font:20px/35px 'Sen', sans-serif;
+    font:bold 10px/10px 'Sen', sans-serif;
+    text-transform: uppercase;
 	text-decoration: none;
 	margin:0px 15px;
 }
