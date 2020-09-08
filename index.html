@@ -1,26 +1,150 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/PortfolioTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- InstanceBeginEditable name="doctitle" -->
+
 <title>Annie Tseng | Biomedical Communicator </title>
-<!-- InstanceEndEditable -->
-    <link rel="icon" type="image/png" href="http://ettudis.three-words.net/4.gif" />
+
+	<link rel="icon" type="image/png" href="http://ettudis.three-words.net/4.gif" />
 	<link rel="stylesheet" href="https://use.typekit.net/rql0wcp.css">
 	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 	<link href="lightbox/css/lightbox.css" rel="stylesheet">
 	
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<div class="heading">under construction</div>
+	<div class="flex-container">
+	<header>
+		<div id="header">
+			<div id="title">
+				<a href="../">Annie Tseng</a>
+			</div>
+			<div id="menu">
+				<a href="../">Work</a>
+				<a href="about.html">About</a>
+			</div>
+		</div>
+	</header>
+	<div id="container">
+		<div class="row">
+			<div class="column heading">
+				<div class="about_desc">
+				<i class="far fa-lightbulb" style="font-size:30px;margin-bottom:20px;"></i><br>I visualize science to impact accurate understanding, communicate insights and tell stories
+				</div> 
+			</div>
+		</div>
+		
+		<!--  
+		<div class="row">
+			<div class="column mrp" onclick="location.href='\work/research/';">
+				<div class="about_desc">
+					<a href="research/index.html">
+				<h1>EvoExplorer: An Inquiry-Based, Interactive Learning Environment for Remediating Misconceptions in Evolution</h1>
+				<h2>A Master's Research Project</h2></a>
+				</div>
+			</div>
+		</div> -->
+		
+		<div class="row">
+			<div class="column thumb_hover" onclick="location.href='work/pathology/';">
+				<div class="hover_desc">
+				<table align="center" height="100%">
+						<tr>
+							<td><a href="work/pathology/">Chronic Obstructive Pulmonary Disease <h2>Editorial Illustration</h2></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="images/Work-01.png" alt="pathology-COPD" class="thumb">
+			</div>
 
+			<div class="column thumb_hover" onclick="location.href='work/genomics/';">
+				<div class="hover_desc">
+				<table align="center" height="100%">
+						<tr>
+							<td><a href="work/genomics/">What is Genomics? <h2>Motion Graphic Animation</h2></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="images/Work-05.png" alt="genomics-animation" class="thumb">
+			</div>
 
-	
+			<div class="column thumb_hover" onclick="location.href='work/hemicolectomy/';">
+				<div class="hover_desc">
+				<table align="center" height="100%">
+						<tr>
+							<td><a href="work/hemicolectomy">Laparoscopic Left Hemicolectomy <h2>Surgical Illustration</h2></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="images/Work-03.png" alt="hemicolectomy" class="thumb">
+			</div>
+
+		</div>
+		
+		<div class="row">
+			
+			<div class="column thumb_hover" onclick="location.href='work/med-legal/';">
+				<div class="hover_desc">
+				<table align="center" height="100%">
+						<tr>
+							<td><a href="work/med-legal/">Miller v. Dow <h2>Medical Legal Visualization</h2></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="images/Work-06.png" alt="med-legal" class="thumb">
+			</div>
+
+			<div class="column thumb_hover" onclick="location.href='work/anatomy/';">
+				<div class="hover_desc">
+				<table align="center" height="100%">
+						<tr>
+							<td><a href="work/anatomy/">Anatomical Illustrations <h2>Traditional and Digital</h2></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="images/Work-04.png" alt="anatomy" class="thumb">
+			</div>
+			
+			<div class="column thumb_hover" onclick="location.href='work/complement-c3/';">
+				<div class="hover_desc">
+				<table align="center" height="100%">
+						<tr>
+							<td><a href="work/complement-c3/">Complement C3 and Autophagy <h2>Illustration</h2></a></td>
+						</tr>
+					</table>
+				</div>
+				<img src="images/Work-02.png" alt="complement-c3" class="thumb">
+			</div>
+
+		</div>
+		
+		
+	</div>
+	<footer>
+		<div id="footer">
+		All content &copy; 2020 Annie Tseng / <a href="mailto: anniekhtseng@gmail.com">anniekhtseng@gmail.com</a> / <a href="https://www.instagram.com/ansdoesart/" target="_blank"><i class="fab fa-instagram"></i></a> / <a href="https://www.linkedin.com/in/annie-tseng-62900240/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		</div>
+	</footer>
+		
+	</div>
+	<script src="lightbox/js/lightbox-plus-jquery.js"></script>
+	 <script>
+        window.onscroll = function() {myFunction()};
+
+		var header = document.getElementsByTagName("header")[0];
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+			header.classList.add("sticky");
+		  } else {
+			header.classList.remove("sticky");
+		  }
+		}
+    </script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
