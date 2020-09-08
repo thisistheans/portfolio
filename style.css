@@ -199,7 +199,7 @@ footer {
 	opacity: 0;
 }
 .thumb_hover:hover .hover_desc{
-	opacity: 0.9;
+	opacity: 1;
 }
 .hover_desc a{
 	font: italic 18px 'temeraire', Times, serif;
@@ -207,6 +207,13 @@ footer {
 	color: #000;
 	border:none;
 	text-decoration:none;
+	background: linear-gradient(to left, #FFF 51%, #ECFA3B 50%);
+	background-size: 200% 100%;
+	background-position:right bottom;
+    transition:all 0.7s ease;
+}
+.hover_desc a:hover{
+	background-position:left bottom;
 }
 .mrp:hover h1, .mrp:hover h2 {
 	color:#FFF;
