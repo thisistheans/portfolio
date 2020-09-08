@@ -264,7 +264,7 @@ h2 {
     transition:all 0.7s ease;
 }
 .about_desc a:hover{
-	text-decoration: line-through;
+	text-decoration: none;
 	background-position:left bottom;
 
 }
