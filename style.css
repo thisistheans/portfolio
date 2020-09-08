@@ -216,7 +216,7 @@ footer {
 	font-weight:normal;
 }
 h1 {
-	font:bold 22px/30px 'Karla', sans-serif;
+	font:22px/30px 'temeraire', Times, sans-serif;
 	margin:0px;
 }
 h2 {
@@ -279,7 +279,8 @@ h4 {
 	vertical-align: top;
 }
 .work_title h1{
-	font:bold 25px 'Karla', sans-serif;
+	font: 38px 'temeraire', Times, serif;
+	letter-spacing:1px;
 	text-align:center;
 	color:#000;
 }
