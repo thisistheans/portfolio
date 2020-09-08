@@ -265,7 +265,7 @@ h4 {
 .work_title {
 	padding:100px 40px 120px;
 	margin:10px;
-	background: #f4f4f4;
+	background: #FFFFFF;
 	color:#656565;
 	font-size:14px;;
 	text-align:left;
@@ -279,8 +279,7 @@ h4 {
 	vertical-align: top;
 }
 .work_title h1{
-	font: 38px 'temeraire', Times, serif;
-	letter-spacing:1px;
+	font: 25px 'temeraire', Times, serif;
 	text-align:center;
 	color:#000;
 }
@@ -312,7 +311,6 @@ h4 {
 	max-width:1180px;
 }
 .process {
-	background: #f4f4f4;
 	color:#656565;
 	font-size:14px;;
 	text-align:left;
@@ -328,21 +326,21 @@ h4 {
 	width:100%;
 }
 blockquote {
-	font: bold 15px/22px 'Karla', sans-serif;
-	color:#333;
+	font: 16px/22px 'temeraire', Times, serif;
+	color:#000;
 	margin:40px 0px;
 }
 h6 {
 	font: bold 12px 'Karla', sans-serif;
 	text-transform:uppercase;
 	letter-spacing: 1px;
-	color:#333;
+	color:#000;
 	padding-right:10px;
 	margin:10px 0px 0px;
 }
 h5 {
-	font: normal 20px 'Karla', sans-serif;
-	color:#333;
+	font: normal 20px 'temeraire', Times, serif;
+	color:#000;
 	margin:10px 0px;
 	text-align:left;
 }
