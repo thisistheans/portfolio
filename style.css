@@ -16,7 +16,7 @@ html {
     min-height: 100%;
 }
 body {
-	background:#FCFCFC;
+	background:#FFFFFFF;
 	margin: 0 auto 70px;
 }
 .flex-container {
@@ -46,9 +46,9 @@ li{
 /* Header */
 header {
 	width: 100%;
-	background: #fcfcfc;
 	padding: 20px 0px;
 	z-index: 1000;
+	background:#FFFFFF;
 }
 #header {
 	width: 80%;
@@ -74,10 +74,11 @@ header {
 	float: left;
 }
 #title a {
-	font:35px/35px 'Supermercado One', "Gill Sans", "Gill Sans MT", Helvetica, Arial, "sans-serif";
-	color: #ed533a;
+	font:italic 18px/35px 'temeraire', Times, serif;
+	color: #000000;
+	text-transform: uppercase;
 	text-decoration: none;
-	letter-spacing: -1px;
+	letter-spacing: 3px;
 }
 #menu {
 	width: 60%;
@@ -87,13 +88,21 @@ header {
 }
 #menu a {
 	color: #3C3838;
-	letter-spacing:1px;
-	font:20px/35px 'karla', sans-serif;
+	letter-spacing:2px;
+	font:12px/35px 'temeraire', Times, serif;
+	text-transform:uppercase;
 	text-decoration: none;
 	margin:0px 15px;
+	padding:1px;
+	background: linear-gradient(to left, #FFF 51%, #ECFA3B 50%);
+	background-size: 200% 100%;
+	background-position:right bottom;
+    transition:all 0.7s ease;
 }
 #menu a:hover {
-	color: #ed533a;
+	text-decoration:line-through;
+	background-position:left bottom;
+	
 }
 
 /* Footer */
@@ -155,10 +164,10 @@ footer {
 	margin-bottom:20px;
 }
 .heading {
-	background: #ed533a;
-	font:bold 25px 'Karla', sans-serif;
+	font:38px 'temeraire', Times, serif;
 	padding: 140px 40px 160px;
-	color:#FFF;
+	color:#000000;
+	text-align:left;
 	width:100%;
 	margin:10px;
 }
@@ -228,7 +237,7 @@ h2 {
 	font-weight:bold;
 }
 .about_desc a:hover{
-	color: #ed533a;
+	color: #000000;
     border-bottom-color: #ffb199;
 }
 .about_icon {
@@ -273,7 +282,7 @@ h4 {
 }
 #work_wrapper a{
 	text-decoration:none;
-	color: #ed533a;
+	color: #000000;
 }
 #work_wrapper a:hover{
 	border-bottom: 2px solid #9fc9eb;
