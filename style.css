@@ -185,6 +185,9 @@ footer {
 .mrp:hover {
 	background: #9fc9eb;
 }
+.last {
+	padding-bottom:160px;
+}
 .thumb_hover {
 	position:relative;
 	margin:10px;
