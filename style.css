@@ -51,7 +51,6 @@ header {
 	background:#FFFFFF;
 }
 #header {
-	width: 80%;
 	max-width:1180px;
 	margin:0px auto;
 }
@@ -72,6 +71,7 @@ header {
 #title {
 	width: 40%;
 	float: left;
+	padding-left:10px;
 }
 #title a {
 	font:italic 18px/35px 'temeraire', Times, serif;
@@ -116,7 +116,6 @@ footer {
 }
 #footer {
 	margin:0px auto;
-	width: 80%;
 	font:12px 'Karla', sans-serif;
 	color:#999;
 	text-align: center;
@@ -132,7 +131,7 @@ footer {
 
 /* Main content */
 #container {
-	width:80%;
+	width:100%;
 	max-width:1180px;
 	margin:0px auto;
 }
@@ -165,7 +164,7 @@ footer {
 }
 .heading {
 	font:38px 'temeraire', Times, serif;
-	padding: 140px 40px 160px;
+	padding: 140px 40px 160px 0px;
 	color:#000000;
 	text-align:left;
 	width:100%;
@@ -190,24 +189,26 @@ footer {
 	position:absolute;
 	width:100%;
 	height:100%;
-	background: #000;
+	background: #FFF;
 	padding:0px;
 	opacity: 0;
 }
 .thumb_hover:hover .hover_desc{
-	opacity: 1;
+	opacity: 0.9;
 }
 .hover_desc a{
-	color: #FFFFFF;
+	font: italic 18px 'temeraire', Times, serif;
+	letter-spacing:1px;
+	color: #000;
 	border:none;
-	font-size:20px;
 	text-decoration:none;
 }
 .mrp:hover h1, .mrp:hover h2 {
 	color:#FFF;
 }
 .hover_desc h2{
-	color:#FFF;
+	color:#000;
+	font-weight:normal;
 }
 h1 {
 	font:bold 22px/30px 'Karla', sans-serif;
