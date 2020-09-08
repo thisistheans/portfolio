@@ -139,6 +139,7 @@ footer {
 	width:100%;
 	max-width:1180px;
 	margin:0px auto;
+	padding-bottom:90px;
 }
 .row {
     display: -webkit-flex;
@@ -184,9 +185,6 @@ footer {
 }
 .mrp:hover {
 	background: #9fc9eb;
-}
-.last {
-	padding-bottom:160px;
 }
 .thumb_hover {
 	position:relative;
