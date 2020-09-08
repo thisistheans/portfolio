@@ -74,7 +74,7 @@ header {
 	padding-left:10px;
 }
 #title a {
-	font:italic 18px/35px 'temeraire', Times, serif;
+	font:italic 18px/35px 'temeraire', Garamond, Times, serif;
 	color: #000000;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -89,7 +89,7 @@ header {
 #menu a {
 	color: #3C3838;
 	letter-spacing:2px;
-	font:12px/35px 'temeraire', Times, serif;
+	font:12px/35px 'temeraire', Garamond, Times, serif;
 	text-transform:uppercase;
 	text-decoration: none;
 	margin:0px 15px;
@@ -169,7 +169,7 @@ footer {
 	margin-bottom:20px;
 }
 .heading {
-	font:38px 'temeraire', Times, serif;
+	font:38px 'temeraire', Garamond, Times, serif;
 	padding: 140px 40px 160px 0px;
 	color:#000000;
 	text-align:left;
@@ -203,7 +203,7 @@ footer {
 	opacity: 1;
 }
 .hover_desc a{
-	font: italic 18px 'temeraire', Times, serif;
+	font: italic 18px 'temeraire', Garamond, Times, serif;
 	letter-spacing:1px;
 	color: #000;
 	border:none;
@@ -224,7 +224,7 @@ footer {
 	font-weight:normal;
 }
 h1 {
-	font:22px/30px 'temeraire', Times, sans-serif;
+	font:22px/30px 'temeraire', Garamond, Times, sans-serif;
 	margin:0px;
 }
 h2 {
@@ -237,7 +237,7 @@ h2 {
 
 /* About page */
 .intro {
-	font:38px 'temeraire', Times, serif;
+	font:38px 'temeraire', Garamond, Times, serif;
 	padding: 140px 40px 0px 0px;
 	color:#000000;
 	text-align:left;
@@ -274,7 +274,7 @@ h2 {
 }
 
 h3 {
-	font:italic 30px 'temeraire', Times, serif;
+	font:italic 30px 'temeraire', Garamond, Times, serif;
 	color: #000000;
 }
 h4 {
@@ -302,7 +302,7 @@ h4 {
 	vertical-align: top;
 }
 .work_title h1{
-	font: 25px 'temeraire', Times, serif;
+	font: 25px 'temeraire', Garamond, Times, serif;
 	text-align:center;
 	color:#000;
 }
@@ -349,7 +349,7 @@ h4 {
 	width:100%;
 }
 blockquote {
-	font: 16px/22px 'temeraire', Times, serif;
+	font: 16px/22px 'temeraire', Garamond, Times, serif;
 	color:#000;
 	margin:40px 0px;
 }
@@ -362,7 +362,7 @@ h6 {
 	margin:10px 0px 0px;
 }
 h5 {
-	font: normal 20px 'temeraire', Times, serif;
+	font: normal 20px 'temeraire', Garamond, Times, serif;
 	color:#000;
 	margin:10px 0px;
 	text-align:left;
