@@ -245,7 +245,7 @@ h2 {
 }
 .profile {
 	width:100%;
-	max-width:750px;
+	max-width:500px;
 }
 .about_desc{
 	margin: 10px;
@@ -273,7 +273,7 @@ h2 {
 }
 
 h3 {
-	font:italic 25px 'temeraire', Times, serif;
+	font:italic 30px 'temeraire', Times, serif;
 	color: #000000;
 }
 h4 {
