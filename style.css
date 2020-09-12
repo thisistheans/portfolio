@@ -310,13 +310,16 @@ h4 {
 	margin:auto;
 }
 #work_wrapper a{
-	text-decoration:none;
+	text-decoration:underline;
 	color: #000000;
+	background: linear-gradient(to left, #FFF 51%, #ECFA3B 50%);
+	background-size: 200% 100%;
+	background-position:right bottom;
+    transition:all 0.7s ease;
 }
 #work_wrapper a:hover{
-	border-bottom: 2px solid #9fc9eb;
-	color:#000;
-	font-weight:bold;
+	background-position:left bottom;
+	text-decoration:none;
 }
 .mrp_desc {
 	font-size:16px;
