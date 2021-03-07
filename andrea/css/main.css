@@ -1,3 +1,7 @@
+* {
+    border:1px solid #f0303f;
+}
+
 html,
 body {
     height: 100%;
@@ -19,7 +23,6 @@ body {
     display: block;
     position: relative;
     padding-bottom: 50px;
-    background-color: #f0303f;
 }
 
 /* specific block style for non-portfolio pages; shorter in width */
