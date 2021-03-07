@@ -204,8 +204,6 @@ footer {
     /* font-family: 'Karla'; */
     justify-content:flex-start;
     align-items:center;
-    background-color: lightblue;
-    width:84.8%;
     float:right;
 }
 
@@ -301,7 +299,6 @@ footer {
     display:flex;
     justify-content:right;
     align-items:center;
-    background-color: red;
     margin-left:auto;
     /* align-self:right; */
 }
