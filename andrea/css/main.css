@@ -135,7 +135,8 @@ p.portfolio2{
 header {
     width: 100%;
     height: 100px;
-    margin: auto;
+    position:fixed;
+    margin-left:-7.8%;
     margin-bottom: 5%;
     margin-top:
     /* background-color: #gray; */
@@ -190,13 +191,13 @@ footer {
 /* Navigation container */
 .topnavWrapper {
     display:flex;
-    position:fixed;
+    /*position:fixed;
     /* float: left; */
     /* height: 100px; */
     /* padding-top: .8em; */
     /* padding-left: 15em; */
-    margin:26px 0px;
-    width:100%;
+    margin:26px auto;
+    width:92%;
     /* font-family: 'Karla'; */
     justify-content:flex-start;
     align-items:center;
