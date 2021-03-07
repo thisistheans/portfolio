@@ -1,6 +1,4 @@
-* {
-    border:1px solid #f0303f;
-}
+
 
 html,
 body {
@@ -47,9 +45,6 @@ body {
     margin-top:1%;
     /* border-style: solid; */
 }
-
-
-
 
 /* full-width content style */
 .content {
@@ -200,11 +195,11 @@ footer {
     /* height: 100px; */
     /* padding-top: .8em; */
     /* padding-left: 15em; */
-    margin:26px auto;
+    margin:26px 0px;
     /* font-family: 'Karla'; */
     justify-content:flex-start;
     align-items:center;
-    float:right;
+    /*float:right;*/
 }
 
 /* .navLeft{
