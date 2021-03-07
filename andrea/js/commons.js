@@ -41,6 +41,7 @@ function insertHeader(page = "") {
                     <i class="fa fa-bars"></i></a>
             </div>
         </div>
+
          </header>
     `;
 
