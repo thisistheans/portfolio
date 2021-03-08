@@ -9,9 +9,11 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    max-width: 92%;
     line-height:1.25;
     /* border-style: solid; */
+}
+body {
+    width:84%;
 }
 
 .wrapper {
@@ -135,10 +137,7 @@ p.portfolio2{
 header {
     width: 100%;
     height: 100px;
-    position:fixed;
-    margin-left:-7.8%;
     margin-bottom: 5%;
-    margin-top:
     /* background-color: #gray; */
 }
 
@@ -191,13 +190,13 @@ footer {
 /* Navigation container */
 .topnavWrapper {
     display:flex;
-    /*position:fixed;
+    position:fixed;
     /* float: left; */
     /* height: 100px; */
     /* padding-top: .8em; */
     /* padding-left: 15em; */
     margin:26px auto;
-    width:92%;
+    width:84%;
     /* font-family: 'Karla'; */
     justify-content:flex-start;
     align-items:center;
